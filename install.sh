@@ -22,7 +22,7 @@ git clone https://github.com/Mehran/tweetshell
 echo -e "\n\e[3;35mInstalling : rockyou.txt\n"
 cd $HOME/bat
 wget https://raw.githubusercontent.com/josuamarcelc/common-password-list/main/rockyou.txt/rockyou_1.txt
-mv rockyou_1.txt /hash
+mv rockyou_1.txt $HOME/bat/hash
 echo -e "\n\e[3;35mInstalling python modules : requests, stem, instagram-py\n"
 pip install requests requests[socks] stem instagram-py
 echo -e "\e[0;0m"
