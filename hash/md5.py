@@ -34,10 +34,9 @@ elif preg == '01':
 elif preg == '02':
     y()
     
-preg = str(input("\n\033[3;35mDo you want to return to the tool? y/n: "))
+preg = str(input("\n\033[3;35mDo you want to return to the tool? y/n: \003[0;0"))
 if preg == "y":
-    os.system('cd ..')
-    os.system('bash bat.sh')
+    os.system('cd /$HOME/bat && bash bat.sh')
 elif preg == "n":
     print("bye...")
     os.system('exit')
