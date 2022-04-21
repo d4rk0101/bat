@@ -1,6 +1,5 @@
 ## *BAT*
 # *Bruteforce Attack Tool*
-
 **This tool will help you do brute force attacks**
 ## **Options:**
 > 01 Bruteforce Attack Hash md5
@@ -15,8 +14,12 @@
 ## **Installation:**
 > apt install wget neofetch figlet
 >
-> git clone
+> git clone https://github.com/d4rk0101/bat.git
 >
 > cd bat
 >
 > bash install.sh
+## *Warning:*
+> *To use a custom passwordlist in md5 or sha1 create the .txt document in the hash directory*
+>
+> *To use a custom passwordlist in facebook bruteforce create the .txt document in the bat directory*
