@@ -61,11 +61,9 @@ if __name__ == "__main__":
         if is_this_a_password(email, index, password):
             break
 
-preg = str(input("\n\033[3;35mDo you want to return to the tool? y/n: "))
+preg = str(input("\n\033[3;35mDo you want to return to the tool? y/n: \033[0;0m"))
 if preg == "y":
-    os.system('cd $HOME')
-    os.system('cd $HOME/bat')
-    os.system('bash bat.sh')
+    os.system('cd /$HOME/bat && bash bat.sh')
 elif preg == "n":
     print("bye...")
     os.system('exit')
