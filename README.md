@@ -1,5 +1,6 @@
 ## *BAT*
 # *Bruteforce Attack Tool*
+![](https://github.com/d4rk0101/bat/blob/main/7e5c0701fba480e5c59ccf400ea18e55.gif)
 **This tool will help you do brute force attacks**
 ## **Options:**
 > 01 Bruteforce Attack Hash md5
