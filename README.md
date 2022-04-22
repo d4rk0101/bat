@@ -24,3 +24,5 @@
 > *To use a custom passwordlist in md5 or sha1 create the .txt document in the hash directory*
 >
 > *To use a custom passwordlist in facebook bruteforce create the .txt document in the bat directory*
+## *running tool:*
+![](https://github.com/d4rk0101/bat/blob/main/img/Screenshot_20220421-203614~2.png)
