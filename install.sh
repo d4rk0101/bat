@@ -23,7 +23,7 @@ echo -e "\n\e[3;35mInstalling : rockyou.txt\n"
 cd $HOME/bat
 wget https://raw.githubusercontent.com/josuamarcelc/common-password-list/main/rockyou.txt/rockyou_1.txt
 mv $HOME/bat/rockyou_1.txt $HOME/bat/hash
-echo -e "\n\e[3;35mInstalling python modules : requests, stem, instagram-py\n"
+echo -e "\n\e[3;35mInstalling python modules : requests, stem, instagram-py bs4\n"
 pip install requests requests[socks] stem instagram-py bs4
 echo -e "\e[0;0m"
 sleep 2
